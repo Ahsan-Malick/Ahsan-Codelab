@@ -45,6 +45,8 @@ const Chatcard = () => {
         headers: { "Content-Type": "application/json" },
       });
 
+      
+
       const responseMsg = await response.json(); //takes json and convert it to js object
       console.log(responseMsg)
 
@@ -73,7 +75,7 @@ const Chatcard = () => {
               src="https://chatscope.io/storybook/react/assets/joe-v8Vy3KOS.svg"
             />
             <ConversationHeader.Content
-              userName="Compass-Ahsan's Portfolio Assistant"
+              userName="Ahsan's Portfolio Assistant"
               info="Active Now"
             />
           </ConversationHeader>
