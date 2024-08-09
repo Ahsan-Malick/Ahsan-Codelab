@@ -83,6 +83,7 @@ const Projectbot = () => {
             ))}
           </MessageList>
           <MessageInput
+            disabled
             attachButton={false}
             sendButton={false}
             placeholder=""
