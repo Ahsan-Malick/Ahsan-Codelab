@@ -32,8 +32,8 @@ const Contact = () => {
 			<div className="page-content">
 				<NavBar active="contact" />
 				<div className="content-wrapper">
-					<div className="contact-logo-container">
-						<div className="contact-logo">
+					<div className="contact-logo-container lg:pb-0">
+						<div className="mx-auto lg:mx-0">
 							<Logo width={46} />
 						</div>
 					</div>

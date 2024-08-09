@@ -1,6 +1,6 @@
 const INFO = {
   main: {
-    title: "Ahsan's Portfolio",
+    title: "AhsanCodeLab",
     name: "Ahsan Javed",
     email: "ahsanjaved74@yahoo.com",
   },

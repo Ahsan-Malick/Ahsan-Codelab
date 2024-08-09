@@ -18,7 +18,7 @@ const Chatcard = () => {
   const [msgs, setMsgs] = useState([
     {
       message:
-        `Welcome to Ahsan's professional portfolio! I'm Ahsan's Assistant, your one-stop resource for learning about his work experience and skills. Feel free to ask anything!`,
+        `Welcome to Ahsan's professional portfolio! I'm Ahsan's Portfolio Assistant, your one-stop resource for learning about his work experience and skills. Feel free to ask anything!`,
       sentTime: "Just Now",
       sender: "user",
       direction: "outgoing",
@@ -75,7 +75,7 @@ const Chatcard = () => {
               src="https://chatscope.io/storybook/react/assets/joe-v8Vy3KOS.svg"
             />
             <ConversationHeader.Content
-              userName="Ahsan's Portfolio Assistant"
+              userName="Portfolio Assistant"
               info="Active Now"
             />
           </ConversationHeader>

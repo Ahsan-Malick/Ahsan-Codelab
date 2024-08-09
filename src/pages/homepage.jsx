@@ -62,7 +62,7 @@ const Homepage = () => {
 
 	const logoStyle = {
 		display: "flex",
-		position: stayLogo ? "fixed" : "relative",
+		// position: stayLogo ? "fixed" : "relative",
 		top: stayLogo ? "3vh" : "auto",
 		zIndex: 999,
 		border: stayLogo ? "1px solid white" : "none",
@@ -103,7 +103,7 @@ const Homepage = () => {
 
 							{/* Chatcard starts here */}
 							<div className="homepage-first-area-right-side">
-								<div className="mx-auto w-[280px] md:w-auto  lg:w-[360px]">
+								<div className="mx-auto w-auto  lg:w-[360px]">
 									<div className="">
 										<Chatcard/>
 									</div>

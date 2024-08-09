@@ -33,8 +33,8 @@ const About = () => {
 			<div className="page-content">
 				<NavBar active="about" />
 				<div className="content-wrapper">
-					<div className="about-logo-container">
-						<div className="about-logo">
+					<div className="about-logo-container lg:pb-0">
+						<div className="mx-auto lg:mx-0">
 							<Logo width={46} />
 						</div>
 					</div>
