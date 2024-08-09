@@ -49,14 +49,14 @@ const Contact = () => {
 							suggestions. If you have a specific question or
 							comment, please feel free to email me directly at
 							&nbsp;{" "}
-							<a href={`mailto:${INFO.main.email}`}>
+							<a className="underline text-blue-700" href={`mailto:${INFO.main.email}`}>
 								{INFO.main.email}
 							</a>
 							. I make an effort to respond to all messages within
 							24 hours, although it may take me longer during busy
 							periods. If you prefer to connect on
 							social media, you can find me on{" "}
-							<a
+							<a className="underline text-blue-700"
 								href={INFO.socials.linkedin}
 								target="_blank"
 								rel="noreferrer"
