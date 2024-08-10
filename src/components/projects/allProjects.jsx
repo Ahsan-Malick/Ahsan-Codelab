@@ -8,9 +8,9 @@ import "./styles/allProjects.css";
 
 const AllProjects = () => {
 	return (
-		<div className="all-projects-container">
+		<div className="flex flex-wrap">
 			{INFO.projects.map((project, index) => (
-				<div className="all-projects-project" key={index}>
+				<div className="w-[200px] md:[250px] lg:w-[280px] xl:w-[350px] mx-auto" key={index}>
 					<Project
 						logo={project.logo}
 						title={project.title}
