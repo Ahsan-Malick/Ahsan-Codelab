@@ -48,7 +48,7 @@ const INFO = {
     {
       title: "Corporate UK Services",
       description:
-        "Web app for a recruiting agency, where people can apply for a job online.",
+        "A web application for a recruiting agency, allowing users to search and apply for jobs online.",
       logo: "https://img.freepik.com/premium-vector/blue-purple-logo-with-spiral-center_904970-57377.jpg?w=740",
       linkoneText: "Code",
 	  linktwoText: "Demo",
@@ -59,7 +59,7 @@ const INFO = {
     {
       title: "World Prayer Time Guide",
       description:
-        "Prayer time guide, where you can look for prayer timings all over the globe, for specific cities.",
+        "A prayer time guide that allows you to find prayer timings globally, tailored to specific cities worldwide.",
       logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
       linkoneText: "Code",
 	  linktwoText: "Demo",
@@ -70,7 +70,7 @@ const INFO = {
     {
       title: "AI Playground",
       description:
-        "It is an AI playground just to play around with AI, by generating images and text using OpenAI.",
+        "It is an AI playground for experimenting with AI, generating images and text using OpenAI's technologies.",
       logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
       linkoneText: "Code",
 	  linktwoText: "Demo",
@@ -91,7 +91,7 @@ const INFO = {
     {
       title: "My Portfolio",
       description:
-        "The project close to my heart, it is my portfolio web app, which you are currently using.",
+        "This portfolio web app, close to my heart, showcases my work and integrates LangChain and OpenAI.",
       logo: "https://images.seeklogo.com/logo-png/52/1/langchain-logo-png_seeklogo-528369.png",
       linkoneText: "Code",
 	  linktwoText: "Demo",

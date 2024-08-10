@@ -11,14 +11,14 @@ const Project = (props) => {
 
   return (
     <React.Fragment>
-      <div className="project">
-        <div className="project-container">
+      <div className="h-[100%]">
+        <div className="h-[100%] relative">
           <div className="project-logo">
             <img src={logo} alt="logo" />
           </div>
           <div className="project-title">{title}</div>
           <div className="project-description">{description}</div>
-          <div className="project-all-link">
+          <div className="project-all-link absolute bottom-0">
             <Link className="project-link-one" to={link} target="_blank">
               <div className="project-link-icon">
                 <FontAwesomeIcon icon={faCode} />

@@ -35,9 +35,6 @@
 	transition: color 0.3s ease-in-out;
 }
 
-.project-container {
-	padding: 30px;
-}
 
 .project-logo {
 	width: 30px;
@@ -72,7 +69,7 @@
 	align-items: center;
 	color: var(--secondary-color);
 	font-size: 12px;
-	padding-top: 20px;
+	/* padding-top: 20px; */
 	margin-right: 10px;
 }
 
@@ -81,7 +78,7 @@
 	align-items: center;
 	color: var(--secondary-color);
 	font-size: 12px;
-	padding-top: 20px;
+	/* padding-top: 20px; */
 	margin-left: 10px;
 }
 .project-link-icon {
@@ -98,6 +95,7 @@
 
 @media (max-width: 600px) {
 	.project {
-		height: 300px;
+		height: 210px;
+		padding-bottom: 20px;
 	}
 }
