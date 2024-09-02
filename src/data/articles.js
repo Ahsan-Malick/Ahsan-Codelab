@@ -4,14 +4,14 @@ import "./styles.css"
 function article_1() {
 	return {
 		date: "14 July 2024",
-		title: "Simple guide to deploy FastAPI on Render",
+		title: "Deploy Your First LangChain App, Powered by FastAPI, on Render",
 		description:
-			"Learn how to seamlessly deploy your FastAPI application on Render with this step-by-step guide, leveraging Render's user-friendly platform for effortless and scalable deployments.",
+			"Learn How to Seamlessly Deploy Your First LangChain App, Powered by FastAPI, on Render: A Step-by-Step Guide.",
 		keywords: [
-			"The Benefits of Cloud Computing",
-			"Tharindu",
-			"Tharindu N",
-			"Tharindu Nayanajith",
+			"Deplying Langchain App on Render",
+			"Ahsan",
+			"Ahsan J",
+			"Ahsan Javed",
 		],
 		style: `
 				.article-content {
@@ -40,6 +40,7 @@ function article_1() {
 				</div>
 			</React.Fragment>
 		),
+		link: "https://www.linkedin.com/pulse/how-seamlessly-deploy-your-first-langchain-app-powered-ahsan-javed-23vpe/?trackingId=b%2BkzrvRxRWmOTUHoOa0s7Q%3D%3D"
 	};
 }
 

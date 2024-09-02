@@ -30,15 +30,14 @@ const NavBar = (props) => {
                 <Link to="/projects">Projects</Link>
               </li>
               <li
-                // className={
-                //   active === "articles" ? "nav-item active" : "nav-item"
-                // }
-                className="article-wrapper"
-                
+                className={
+                  active === "articles" ? "nav-item active" : "nav-item"
+                }
+                // className="article-wrapper"
               >
-                {/* <Link to="/articles">Articles</Link> */}
-                <div className="articles" to="/articles">Articles</div>
-                <div className="popup">Coming Soon</div>
+                <Link to="/articles">Articles</Link>
+                {/* <div className="articles" to="/articles">Articles</div>
+                <div className="popup">Coming Soon</div> */}
               </li>
               <li
                 className={

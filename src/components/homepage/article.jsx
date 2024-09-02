@@ -17,13 +17,13 @@ const Article = (props) => {
           <div className="homepage-article-title">{title}</div>
           <div className="homepage-article-description">{description}</div>
           <div className="homepage-article-link">
-            <Link to={link}>
-              Coming Soon
+            <a href={link} target="_blank" >
+              Visit Article
               <FontAwesomeIcon
                 style={{ fontSize: "10px" }}
                 icon={faChevronRight}
               />
-            </Link>
+            </a>
           </div>
         </div>
       </div>
