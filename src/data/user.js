@@ -2,7 +2,7 @@ const INFO = {
   main: {
     title: "AhsanCodeLab",
     name: "Ahsan Javed",
-    email: "ahsanjaved74@yahoo.com",
+    email: "ahsanjaved02@outlook.com",
   },
 
   socials: {
