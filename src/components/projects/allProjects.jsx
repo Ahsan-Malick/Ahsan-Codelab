@@ -13,7 +13,7 @@ const AllProjects = () => {
 				<div className="w-[200px] lg:w-[280px] xl:w-[350px] min-[320px]:mx-auto mb-10 h-[240px] min-[1024px]:h-[210px]" key={index}>
 					<Project
 						logo={project.logo}
-						title={project.title}s
+						title={project.title}
 						description={project.description}
 						linkoneText={project.linkoneText}
 						linktwoText={project.linktwoText}

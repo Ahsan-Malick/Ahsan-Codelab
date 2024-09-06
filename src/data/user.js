@@ -2,7 +2,7 @@ const INFO = {
   main: {
     title: "AhsanCodeLab",
     name: "Ahsan Javed",
-    email: "ahsanjaved02@outlook.com",
+    email: "ahsanjaved74@yahoo.com",
   },
 
   socials: {
@@ -48,7 +48,7 @@ const INFO = {
     {
       title: "Corporate UK Services",
       description:
-        "A web application for a recruiting agency, allowing users to search and apply for jobs online.",
+        "A web application for a recruitment agency, allowing users to search and apply for jobs online.",
       logo: "https://img.freepik.com/premium-vector/blue-purple-logo-with-spiral-center_904970-57377.jpg?w=740",
       linkoneText: "Code",
 	  linktwoText: "Demo",
