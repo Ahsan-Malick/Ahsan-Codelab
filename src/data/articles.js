@@ -8,7 +8,7 @@ function article_1() {
 		description:
 			"Learn How to Seamlessly Deploy Your First LangChain App, Powered by FastAPI, on Render: A Step-by-Step Guide.",
 		keywords: [
-			"Deplying Langchain App on Render",
+			"Deploying Langchain App on Render",
 			"Ahsan",
 			"Ahsan J",
 			"Ahsan Javed",
@@ -44,27 +44,28 @@ function article_1() {
 	};
 }
 
-// function article_2() {
-// 	return {
-// 		date: "7 May 2023",
-// 		title: "Artificial Intelligence in Healthcare",
-// 		description:
-// 			"AI is transforming the healthcare industry, from improving patient outcomes to streamlining operations. Discover the latest applications of this game-changing technology.",
-// 		style: ``,
-// 		keywords: [
-// 			"Artificial Intelligence in Healthcare",
-// 			"Tharindu",
-// 			"Tharindu N",
-// 			"Tharindu Nayanajith",
-// 		],
-// 		body: (
-// 			<React.Fragment>
-// 				<h1>Content of article 2</h1>
-// 			</React.Fragment>
-// 		),
-// 	};
-// }
+function article_2() {
+	return {
+		date: "10 September 2024",
+		title: "Understanding Video Processing with OpenAI and Gemini ",
+		description:
+			"Overview of the video understanding capabilities of both OpenAI and Gemini, explaining how these advanced systems process and analyze videos in unique ways.",
+		style: ``,
+		keywords: [
+			"Video Prompting with Generative AI",
+			"Ahsan",
+			"Ahsan J",
+			"Ahsan Javed",
+		],
+		body: (
+			<React.Fragment>
+				<h1>Content of article 2</h1>
+			</React.Fragment>
+		),
+		link: "https://www.linkedin.com/pulse/seeing-future-ai-understanding-video-openai-gemini-ahsan-javed-2vh7e/?trackingId=QVjT5HqBSvSH20IS%2BlIVvw%3D%3D"
+	};
+}
 
-const myArticles = [article_1];
+const myArticles = [article_1, article_2];
 
 export default myArticles;
